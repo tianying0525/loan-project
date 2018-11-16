@@ -242,6 +242,6 @@ Number.prototype.format = function (n, x) {
 
 
 function run() {
-    window.location.href = window.location.href.replace(url_ori.substring(47, 51), document.getElementById("Ultra").value);
+    window.location.href = window.location.href.replace(url_ori.substring(51, 55), document.getElementById("Ultra").value);
    //window.location.href = window.location.href.replace(url_ori.substring(22, 26), document.getElementById("Ultra").value);
 }
