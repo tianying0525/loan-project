@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    background: #e6e6e6;
+}
+
+.page {
+    display: block;
+    position: absolute;
+    left: 40%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.select-dropdown {
+    position: relative;
+    background-color: white;
+    width: auto;
+    float: left;
+    max-width: 100%;
+    border-radius: 2px;
+
+}
+
+.select-dropdown select {
+    font-family: "helvetica neue", helvetica, serif;
+    font-size: 1rem;
+    font-weight: 200;
+    max-width: 100%;
+    padding: 8px 24px 8px 10px;
+    border: none;
+    background-color: transparent;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.select-dropdown select:active, .select-dropdown select:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.select-dropdown:after {
+    content: " ";
+    position: absolute;
+    top: 50%;
+    margin-top: -2px;
+    right: 8px;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #aaa;
+}
+
+#container_chart1 {
+
+    width: 46%;
+    height: 350px;
+    float: left;
+    margin: 20px;
+    display: block;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+#container_chart2 {
+
+    width: 46%;
+    height: 350px;
+    float: left;
+    margin: 20px;
+    display: block;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+#click {
+    display: block;
+    background-color: #17006C;
+    width: auto;
+    left: 50%;
+    margin: 40px;
+    font-family: "helvetica neue", helvetica serif;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 8px 10px 8px 10px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.block {
+    display: block;
+    width: 29%;
+    height: 170px;
+    background-color: white;
+    float: left;
+    margin: 20px 25px 20px 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.name {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 20px 20px 20px 20px;
+    margin: 10px;
+    border-bottom: 4px solid #e6e6e6;
+    font-family: "helvetica neue", helvetica serif;
+}
+
+.value {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: #17006C;
+    font-family: "helvetica neue", helvetica serif;
+}
+
+.clear {
+    clear: both;
+}
